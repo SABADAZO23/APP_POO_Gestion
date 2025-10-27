@@ -116,12 +116,7 @@ Coloca esas líneas dentro del bloque CSS en `apply_theme()` y recarga Streamlit
   - `modules/theme.py` — estilos/paleta/logo
   - `dashboards/owner_dashboard.py` — UI del propietario
 
-## Preguntas frecuentes rápidas
-- ¿Cómo aplicar el tema inmediatamente a una tienda? Guarda `logo_b64` y `palette` en `settings/{store_id}` (UI del owner o script `tools/set_store_theme.py`) y recarga la app como un usuario de esa tienda.
-
-Si quieres, puedo:
-- subir el logo que copié también a Firestore para `store_id` que me indiques; o
-- ajustar el CSS ahora para que el logo luzca exactamente como quieres (dime estilo: tamaño, circular/rectangular, sombra, posición).
 
 ---
 Fecha: 2025-10-27
+
